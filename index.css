@@ -1,0 +1,550 @@
+*{
+    /* margin: 0 !important;
+    padding: 0 !important; */
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f7f9;
+}
+.joshi{
+    background-color: #f5f7f9;
+}
+
+
+
+    
+input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.intpot{
+    background-color: rgba(208, 205, 205, 0.527) !important;
+    width: 16rem;
+    height: 6vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 7px;
+    align-items: center;
+    margin-top: 5px;
+}
+.input-2{
+    background-color: white !important;
+    width: 100%;
+    height: 10vh;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding-right: 20px;
+}
+.input-2 input{
+    width: 100%;
+}
+.cattttt::after{
+    content: "5";
+    font-size: 16px;
+    background: #00c48c;
+    color: #f5f7f9;
+    border-radius: 50%;
+    padding: 3px 7px;
+    position: relative;
+    top: -20px;
+}
+.icoon{
+    background-color: rgb(20, 106, 235);
+    color: white;
+    padding: 13px;
+    border-radius: 5px;
+}
+.supp{
+    background-color: #00c48c;
+    border-radius: 50%;
+    padding: 2px  7px; 
+    color: white;
+}
+.butt{
+    background-color: rgba(220, 175, 175, 0.363);
+    color: red;
+}
+.butt:hover{
+    background-color: red;
+    color: white !important;
+}
+.imgg{
+    background-color: transparent !important;
+    mix-blend-mode: color-burn;
+}
+.main-div{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+.main-div:hover .h3{
+    color: deepskyblue;
+}
+.gol{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(137, 43, 226, 0.349);
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gol1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(216, 144, 144, 0.295);
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gol2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.182);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gol3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 128, 0, 0.103);
+    color: rgb(113, 224, 72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gol4{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:rgba(210, 105, 30, 0.154);
+    color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gol5{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(30, 143, 255, 0.182);
+    color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gol6{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:rgba(0, 255, 255, 0.154);
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gol7{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(184, 135, 11, 0.195);
+    color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.goll{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(184, 135, 11, 0.195);
+    color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.num{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+}
+.hover{
+    height: 45vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/17.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hover1{
+    height: 45vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/18.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hover2{
+    height: 45vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/21.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hover3{
+    height: 45vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/20.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hover4{
+    height: 45vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hover5{
+    height: 45vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hover6{
+    height: 45vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/19.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hover7{
+    height: 45vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.none{
+    display: none !important;
+    
+}
+.hover:hover .sss{
+    background-color: rgba(0, 0, 0, 0.411) !important;
+    height: 100%;
+    width: 100%;
+}
+.hover1:hover .sss{
+    background-color: rgba(0, 0, 0, 0.411) !important;
+    height: 100%;
+    width: 100%;
+}
+.hover2:hover .sss{
+    background-color: rgba(0, 0, 0, 0.411) !important;
+    height: 100%;
+    width: 100%;
+}
+.hover3:hover .sss{
+    background-color: rgba(0, 0, 0, 0.411) !important;
+    height: 100%;
+    width: 100%;
+}
+.hover4:hover .sss{
+    background-color: rgba(0, 0, 0, 0.411) !important;
+    height: 100%;
+    width: 100%;
+}
+.hover5:hover .sss{
+    background-color: rgba(0, 0, 0, 0.411) !important;
+    height: 100%;
+    width: 100%;
+}
+.hover6:hover .sss{
+    background-color: rgba(0, 0, 0, 0.411) !important;
+    height: 100%;
+    width: 100%;
+}
+.hover7:hover .sss{
+    background-color: rgba(0, 0, 0, 0.411) !important;
+    height: 100%;
+    width: 100%;
+}
+.photo{
+    height: 30vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: end;
+    border-radius: 7px;
+}
+.photo1{
+    height: 30vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: end;
+    border-radius: 7px;
+}
+.photo2{
+    height: 30vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: end;
+    border-radius: 7px;
+}
+.photo3{
+    height: 30vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: end;
+    border-radius: 7px;
+}
+.photo4{
+    height: 30vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/07.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: end;
+    border-radius: 7px;
+}
+.photo5{
+    height: 30vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/08.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: end;
+    border-radius: 7px;
+}
+.photo6{
+    height: 30vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/09.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: end;
+    border-radius: 7px;
+}
+.photo7{
+    height: 30vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: end;
+    border-radius: 7px;
+}
+.photo:hover .ram{
+    transform: translatey(-20px);
+    transition: all 1s 0.1s;
+    text-shadow: black 3px 10px;
+}
+.photo1:hover .ram{
+    transform: translatey(-20px);
+    transition: all 1s 0.1s;
+    text-shadow: black 3px 10px;
+}
+.photo2:hover .ram{
+    transform: translatey(-20px);
+    transition: all 1s 0.1s;
+    text-shadow: black 3px 10px;
+}
+.photo3:hover .ram{
+    transform: translatey(-20px);
+    transition: all 1s 0.1s;
+    text-shadow: black 3px 10px;
+}
+.photo4:hover .ram{
+    transform: translatey(-20px);
+    transition: all 1s 0.1s;
+    text-shadow: black 3px 10px;
+}
+.photo5:hover .ram{
+    transform: translatey(-20px);
+    transition: all 1s 0.1s;
+    text-shadow: black 3px 10px;
+}
+.photo6:hover .ram{
+    transform: translatey(-20px);
+    transition: all 1s 0.1s;
+    text-shadow: black 3px 10px;
+}
+.photo7:hover .ram{
+    transform: translatey(-20px);
+    transition: all 1s 0.1s;
+    text-shadow: black 3px 10px;
+}
+.but{
+    background-color: chocolate;
+    color: white;
+}
+.childbgg{
+    height: 35vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/18.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.childbgg1{
+    height: 35vh;
+    width: 100%;
+    background-image: url(https://eduport.webestica.com/assets/images/courses/4by3/22.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.d:hover{
+   height: 65px;
+   width: 65px;
+}
+.d1{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.d1:hover{
+   height: 65px;
+   width: 65px;
+}
+.abs{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+.abss{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(39, 39, 201);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parentbg{
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk0jKGVIzm6q2D0oSus6QaaYUNP-8xkH0tOQ&s);
+    border-radius: 5px;
+}
+.foter{
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foter:hover{
+    background-color: dodgerblue;
+    color: white;
+    transform: scale(1.2);
+    font-size: 20px;
+}
+.foter-hover{
+    opacity: 0.6;
+}
+.foter-hover:hover{
+    opacity: 1;
+    color: dodgerblue;
+}
