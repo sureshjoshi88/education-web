@@ -529,7 +529,7 @@ input{
 .foter{
     height: 41px;
     width: 41px;
-    border-radius: 3px;
+    border-radius: 3.5px;
     background-color: white;
     display: flex;
     justify-content: center;
