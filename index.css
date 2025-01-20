@@ -547,4 +547,5 @@ input{
 .foter-hover:hover{
     opacity: 1;
     color: dodgerblue;
+    text-decoration: underline;
 }
