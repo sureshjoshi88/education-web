@@ -548,4 +548,5 @@ input{
     opacity: 1;
     color: dodgerblue;
     text-decoration: underline;
+    cursor: pointer;
 }
