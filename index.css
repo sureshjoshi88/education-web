@@ -84,10 +84,15 @@ input{
     display: flex;
     align-items: center;
     gap: 10px;
+      cursor: pointer;
     padding-top: 20px;
 }
 .main-div:hover .h3{
     color: deepskyblue;
+
+}
+.main-div:hover{
+    background-color: #d6e0eac8;
 }
 .gol{
     height: 50px;
