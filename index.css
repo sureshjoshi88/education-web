@@ -552,7 +552,7 @@ input{
 }
 .foter-hover:hover{
     opacity: 1;
-    color: dodgerblue;
+    color: rgb(18, 135, 252);
     text-decoration: underline;
     cursor: pointer;
 }
